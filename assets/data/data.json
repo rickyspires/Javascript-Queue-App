@@ -1,0 +1,34 @@
+{
+  "options": [
+    {
+      "option": "Housing",
+      "name": "housing",
+      "checked": "checked",
+      "active": "active"
+    },
+    {
+      "option": "Benefits",
+      "name": "benefits",
+      "checked": "",
+      "active": ""
+    },
+    {
+      "option": "Council Tax",
+      "name": "counciltax",
+      "checked": "",
+      "active": ""
+    },
+    {
+      "option": "Fly-tipping",
+      "name": "flytipping",
+      "checked": "",
+      "active": ""
+    },
+    {
+      "option": "Missed Bin",
+      "name": "missedbin",
+      "checked": "",
+      "active": ""
+    }
+  ]
+}

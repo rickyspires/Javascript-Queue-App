@@ -1,0 +1,12 @@
+#queList tr  {
+	display: block;
+	width: 100%;
+ }
+
+#queList tbody {
+	max-height: 363px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: block;
+	width: 100%;
+ }
