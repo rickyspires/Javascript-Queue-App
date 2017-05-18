@@ -91,7 +91,7 @@ function validate(){
             /* create table */
             var table=document.getElementById('queList').getElementsByTagName('tbody')[0];
 
-            var row=table.insertRow(-1);
+            var row=table.insertRow(0);
             var cell1=row.insertCell(0); //id
             var cell2=row.insertCell(1); //organisation  
             var cell3=row.insertCell(2); //radio - type
