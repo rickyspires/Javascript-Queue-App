@@ -105,7 +105,7 @@ function validate(){
             cell5.style.width = "10%";
 
             cell1.innerHTML=numtr;
-            cell2.innerHTML=orgname + " " + title + "<br>" + fname + "<br>" + lname;  
+            cell2.innerHTML=orgname + " " + title + " " + fname + " " + lname;  
             cell3.innerHTML=radio + "<br>" + type;     
             cell4.innerHTML = getDateTime(); 
             cell5.appendChild(statusBtn); 
@@ -131,6 +131,7 @@ function complete(id){
     $("#" + id).attr("disabled", true);
     $("#" + id).attr("value","Seen");
     $("#" + id).attr('class', 'btn btn-success');
+    $("#" + id).closest('tr').addClass('seen').insertAfter("tbody tr:last");
 }
 
 function deleterow(){
@@ -192,3 +193,4 @@ $(document).ready(function() {
 
 });
 
+$("#" + id)
