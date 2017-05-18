@@ -136,6 +136,7 @@ function complete(id){
 
 function deleterow(){
     $("#queList tbody tr").remove(); 
+    document.getElementById('numInList').innerHTML = "0";      
 }
 
 function getDateTime(){
@@ -192,5 +193,3 @@ $(document).ready(function() {
     });
 
 });
-
-$("#" + id)
