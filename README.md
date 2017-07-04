@@ -1,5 +1,5 @@
-# QueApp
-QueApp by Ricky Spires May 2017.
+# Javascript Queue App
+Javascript Queue App by Ricky Spires May 2017.
 
 
 Scenario
